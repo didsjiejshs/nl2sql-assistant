@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# 环境变量（含 API Key，绝对不要提交）
+.env
+
+# 数据库文件（由 seed 脚本自动生成，无需提交）
+data/*.db
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
